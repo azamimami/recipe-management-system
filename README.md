@@ -1,43 +1,64 @@
-🍽️ Yemek Tarifi Yönetim Sistemi (Python OOP + MVC)
+# 🍽️ Yemek Tarifi Yönetim Sistemi
 
-Python ile geliştirilmiş terminal tabanlı yemek tarifi yönetim sistemidir.
-Tarif, malzeme, kullanıcı ve değerlendirme süreçlerini nesne yönelimli programlama (OOP) yapısı ile yönetir.
+Python ile geliştirilmiş terminal tabanlı yemek tarifi yönetim sistemidir. Tarif, malzeme ve kullanıcı işlemleri nesne yönelimli programlama (OOP) yapısı ile yönetilir.
 
-⚙️ Özellikler
-🥘 Tarif Modülü
-Tarif ekleme
-Tarif güncelleme
-Tarif listeleme
-Tarif ID ile arama
-Tarif malzeme yönetimi
-🧂 Malzeme Modülü
-Tariflere malzeme ekleme
-Aynı malzemenin tekrar eklenmesini engelleme
-Malzeme listesi görüntüleme
 
-👤 Kullanıcı Modülü
-Kullanıcı ekleme
-Kullanıcı silme (opsiyonel)
-Kullanıcı listeleme
-Kullanıcı bilgilerini görüntüleme
-⭐ Değerlendirme Modülü
-Kullanıcıların tariflere puan vermesi (1–5 arası)
-Geçersiz puan kontrolü
-Kullanıcı bazlı değerlendirme kaydı
-Tarif değerlendirme geçmişi
+# Özellikler
 
-🧱 Kullanılan Yapılar
-Python sınıfları (OOP)
-List veri yapısı (tarifler, kullanıcılar, değerlendirmeler)
-Terminal tabanlı kullanıcı arayüzü
-In-memory veri yönetimi (veritabanı yok)
-Katmanlı mimari (Model - Service - Repository)
+# Tarif Modülü
 
-🧠 Sistem Mantığı
-Tarifler sisteme eklenir ve listede tutulur
-Kullanıcılar oluşturulur ve sisteme eklenir
-Kullanıcılar tariflere malzeme ekleyebilir
-Kullanıcılar tarifleri puanlayabilir
-Malzeme tekrar eklenmesi engellenir
-Tüm değerlendirmeler sistem içinde kayıt altına alınır
-Veri kalıcı değildir (RAM üzerinde çalışır)
+* Tarif ekleme
+* Tarif güncelleme
+* Tarif listeleme
+* Tarif detaylarını görüntüleme
+* Tarif malzeme yönetimi
+
+
+# Malzeme Modülü
+
+* Tariflere malzeme ekleme
+* Malzeme listeleme
+* Aynı malzemenin tekrar eklenmesini engelleme
+* Malzeme miktarı takibi
+
+
+# Kullanıcı Modülü
+
+* Kullanıcı ekleme
+* Kullanıcı listeleme
+* Kullanıcı bilgilerini görüntüleme
+
+# Değerlendirme Modülü
+
+* Tariflere puan verme (1–5 arası)
+* Kullanıcı bazlı değerlendirme kaydı
+* Geçersiz puanların engellenmesi
+* Değerlendirme geçmişi takibi
+
+
+# Ek Özellikler
+
+* Tarif başına malzeme listesi raporu
+* Kullanıcı bazlı değerlendirme geçmişi
+* Tarif ortalama puan hesaplama
+* Malzeme tekrar kontrol sistemi
+
+
+# Kullanılan Teknolojiler
+
+* Python 3
+* Nesne Yönelimli Programlama (OOP)
+* List veri yapısı
+* datetime modülü (opsiyonel kullanım)
+* Terminal tabanlı kullanıcı arayüzü
+* In-memory veri yönetimi (veritabanı yok)
+
+
+# Sistem Mantığı
+
+* Tarifler sisteme eklenir ve yönetilir
+* Kullanıcılar sisteme kayıt edilir
+* Tariflere malzemeler eklenir ve takip edilir
+* Kullanıcılar tarifleri puanlayabilir
+* Aynı malzemenin tekrar eklenmesi engellenir
+* Tüm veriler sistem içinde geçici olarak saklanır
